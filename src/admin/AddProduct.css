@@ -1,0 +1,35 @@
+.form {
+    font-size: medium;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.form-container label {
+    display: block;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.form-container input {
+    padding: 2px;
+    margin-left: 10px;
+    width: 20%;
+    margin-bottom: 10px;
+
+}
+
+.form-btn {
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 3px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: rgb(68, 205, 33);
+}
+
+.error-msg{
+    margin: 10px;
+    color: red;
+}

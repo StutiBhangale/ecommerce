@@ -1,0 +1,73 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.cart_icon {
+  position: relative;
+  cursor: pointer;
+  margin-left: auto; 
+}
+
+.cart_icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 12px;
+}
+
+.logout-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 7px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: white;
+  color: #333;
+}
+
+.admin-button{
+  margin-left: 10px;
+  margin-top: 6px;
+  font-size: large;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cart_icon {
+    margin: 10px auto;
+  }
+}

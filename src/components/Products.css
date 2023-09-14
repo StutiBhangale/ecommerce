@@ -1,0 +1,78 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card img {
+    max-width: 50px;
+}
+
+.title {
+    font-size: small;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: small;
+    color: #000;
+    margin: 5px 0;
+}
+
+.btn1 {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar {
+    position: relative;
+    margin: 20px;
+    height: 25px;
+    width: 350px;
+}
+
+.search-bar-input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.search-bar-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.search-bar-button {
+    width: 80px;
+    height: 33px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.search-bar-button:hover {
+    background-color: #0056b3;
+}
